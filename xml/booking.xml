@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<!-- Description: Mangkuk Booking Page -->
+	<!-- Author: Amirul Iman bin Amran -->
+	<!-- Date: 02/03/2020 -->
+	<!-- Validated: 01/04/2021 -->
+
+	<head>
+		<meta charset='utf-8'></meta>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'></meta>
+		<meta http-equiv='X-UA-compatible' content='ie=edge'></meta>
+		<meta name='description' content='Mangkuk'></meta>
+		<meta name='keywords' content='Mangkuk'></meta>
+		<meta name='author' content='Amirul Iman bin Amran'></meta>
+		<title>Mangkuk</title>
+		<link rel='stylesheet' href='style/style.css'></link>
+		<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;display=swap" rel="stylesheet"></link>
+		<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+		<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&amp;display=swap" rel="stylesheet"></link>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+		<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&amp;display=swap" rel="stylesheet"></link>
+	</head>
+
+	<body>
+		<nav>
+			<div class='wrapper'>
+				<div class='logo'>
+					<a href='index.html'><img alt="Logo" class="mangkuk" src="images/logo.png" width="50" height="50"></img></a>
+				</div>
+				<input type="radio" name="slide" id='menu-btn'></input>
+				<input type="radio" name="slide" id='cancel-btn'></input>
+				<ul class='nav-links'>
+					<li>
+						<label for='cancel-btn' class='btn cancel-btn'>
+							<img class="x" alt="X" src="images/x.png"></img>
+						</label>
+					</li>
+					<li><a href='index.html'>Home</a></li>
+					<li>
+						<a href='#' class='desktop-item'>Services</a>
+						<input type="checkbox" id='showMega'></input>
+						<label for='showMega' class="mobile-item">Services</label>
+						<div class='mega-box'>
+							<div class='content'>
+								<div class='row'>
+									<header><a href='food_delivery.html'>Food Delivery</a></header>
+									<ul class='mega-links'>
+										<li><a href='food_delivery.html#breakfast'>Breakfast</a></li>
+										<li><a href='food_delivery.html#lunch'>Lunch</a></li>
+										<li><a href='food_delivery.html#dinner'>Dinner</a></li>
+										<li><a href='food_delivery.html#special'>Special</a></li>
+									</ul>
+								</div>
+								
+								<div class='row'>
+									<header><a href='recipes.html'>Recipes</a></header>
+									<ul class='mega-links'>
+										<li><a href='recipes.html#ingridients'>Ingridients</a></li>
+										<li><a href='recipes.html#videos'>Videos</a></li>
+										<li><a href='recipes.html#tips&amp;tricks'>Tips &amp; Tricks</a></li>
+										<li><a href='recipes.html#didyouknow'>Did you know?</a></li>
+									</ul>
+								</div>
+								
+								<div class='row'>
+									<header><a href='booking.html'>Booking</a></header>
+									<ul class='mega-links'>
+										<li><a href='booking.html#whole-restaurant'>Whole restaurant</a></li>
+										<li><a href='booking.html#rooms'>Rooms</a></li>
+										<li><a href='booking.html#catering'>Catering</a></li>
+										<li><a href='booking.html#kitchen-app'>Kitchen appliances</a></li>
+									</ul>
+								</div>
+								
+								<div class='row'>
+									<header><a href='jobs.html'>Jobs</a></header>
+									<ul class='mega-links'>
+										<li><a href='jobs.html#manager'>Manager</a></li>
+										<li><a href='jobs.html#chef'>Chef</a></li>
+										<li><a href='jobs.html#cashier'>Cashier</a></li>
+										<li><a href='jobs.html#janitor'>Janitor</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href='#' class='desktop-item'>About us</a>
+						<input type="checkbox" id='showDrop'></input>
+						<label for='showDrop' class="mobile-item">About Us</label>
+							<ul class='drop-menu'>
+								<li><a href='aboutus.html'>Mangkuk</a></li>
+								<li><a href='aboutme.html'>Author</a></li>
+							</ul>
+					</li>
+					<li><a href='enquiry.html'>Enquiry</a></li>
+					<li><a href='enhancement.html'>Enhancement</a></li>
+					<li><a href='disclaimer.html'>Disclaimer</a></li>
+				</ul> 
+				<label for='menu-btn' class='btn menu-btn'>
+					<a> &#9776; </a>
+				</label>
+			</div>
+		</nav>
+
+		<header class='container'>
+			<img alt="background imag" class="background-image" src="images/booking.jpg"></img>
+			<div class="welcome-wrapper">
+				<div class='service-topic'>Booking</div>
+			</div>
+		</header>
+
+		<section>
+			<div class='taste'>
+				<h2>Description</h2>
+				<p class="desc-pa">Mangkuk is more than just delivering food &amp; recipes tutorial, we aim to do more than that. Our restaurant provides a quality venue for handling small events such as birthday parties, family gatherings, client meetings, etc. You can even book the whole restaurants to allow a large number of attendees. As for people who prefer to keep it small and private, there are 5 rooms for them to choose from. You can visit the same place over and over again and see it differently each time. Booking our venue means you are free to decorate it based on your own theme. Other than that, we also allow you to book our catering service. This will help suffice those who really fond of our foods but wanting it to be at their place’s event. We are prone to deliver the foods environment the same as the restaurant; home feels like a restaurant. When eating, we must be comfortable with the surrounding. Handling certain events in our venue does not entirely suit people’s needs because they only want the foods. Catering is the best option for them to do so. We also provide our kitchen appliances for them to use in their events. </p>
+			</div>
+		</section>
+
+		<section>
+			<div id="whole-restaurant">
+				<div class="sub-delivery">Whole Restaurant</div>
+				<div class="booking-shape">
+					<div class="clearfix">
+			  			<div class="box-img">
+							<img class="booking-pic" alt="background imag" src="images/whole-res.jpg"></img>
+						</div>
+
+						<div class="box">
+							<p>
+								Ideal of course for private dining, parties is especially popular, providing delicious food and tempting drinks to keep all your guests refreshed and satisfied. We have something to suit every occasion and every possible taste – be it in terms of the décor or the menu. Speaking of the food, we have award-winning cuisine and those that offer the opportunity to create entirely bespoke, seasonal menus. So be it for a wedding reception, birthday bash, traditional Christmas dinner or any other dining experience, look no further than Mangkuk.
+							</p>
+						</div>
+
+						<div class="booking-table">
+							<form id="detail1" action="mailto:imanamran@gmail.com" method="post" enctype="text/plain">
+								<table>
+									<tr>
+										<td>Date</td>
+										<td><input type="date" name="Date"></input></td>
+									</tr>
+
+									<tr>
+										<td>Time</td>
+										<td><input type="time" id="appt1" name="Time"></input></td>
+									</tr>
+
+									<tr>
+										<td>Attendees</td>
+										<td><input type="number" id="quantity1" name="Attendees" min="1" max="15"></input></td>
+									</tr>
+
+									<tr>
+										<td>Parking</td>
+										<td>
+											<input type="radio" id="yes1" name="Parking" value="yes"></input>
+					 						<label for="yes1">Yes</label>
+					 						<input type="radio" id="no1" name="Parking" value="no"></input>
+					  						<label for="no1">No</label>
+					  					</td>
+									</tr>
+
+									<tr>
+										<td>Wi-Fi</td>
+										<td>
+											<input type="radio" id="yes2" name="Wi-Fi" value="yes"></input>
+					 						<label for="yes2">Yes</label>
+					 						<input type="radio" id="no2" name="Wi-Fi" value="no"></input>
+					  						<label for="no2">No</label>
+					  					</td>
+									</tr>
+
+									<tr>
+										<td>AV</td>
+										<td>
+											<input type="radio" id="yes3" name="AV" value="yes"></input>
+					 						<label for="yes3">Yes</label>
+					 						<input type="radio" id="no3" name="AV" value="no"></input>
+					  						<label for="no3">No</label>
+					  					</td>
+									</tr>
+
+									<tr >
+										<td colspan="2"><input type="submit" value="Book"></input></td>
+									</tr>
+								</table>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div id="rooms">
+				<div class="sub-delivery">Rooms</div>
+				<div class="booking-shape">
+					<div class="clearfix">
+			  			<div class="box-img">
+			  				<div class="slidershow middle">
+			  					<div class="slides">
+			  						<input type="radio" name="r" id="r1"></input>
+			  						<input type="radio" name="r" id="r2"></input>
+			  						<input type="radio" name="r" id="r3"></input>
+			  						<input type="radio" name="r" id="r4"></input>
+
+			  						<div class="slide s1">
+										<img class="booking-pic" alt="Room" src="images/room1.jpg"></img>
+									</div>
+
+									<div class="slide">
+										<img class="booking-pic" alt="Room" src="images/room2.jpg"></img>
+									</div>
+
+									<div class="slide">
+										<img class="booking-pic" alt="Room" src="images/room3.jpg"></img>
+									</div>
+
+									<div class="slide">
+										<img class="booking-pic" alt="Room" src="images/room4.jpg"></img>
+									</div>
+								</div>
+								<div class="navigation">
+									<label for="r1" class="bar"></label>
+									<label for="r2" class="bar"></label>
+									<label for="r3" class="bar"></label>
+									<label for="r4" class="bar"></label>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="box">
+							<p>
+								From board meeting buffets and wedding parties to five-course feasts and birthday dinners our adaptable private dining spaces – named after clouds – can be hired as single rooms, or combined and shaped to fit your occasion. These private dining rooms are situated on level 38 on The Gherkin offering stunning views of the city with one entire glass wall from floor to ceiling. Here, the private dining is both refined and secluded, offering a privileged perspective to impress your guests.
+							</p>
+						</div>
+
+						<div class="booking-table">
+							<form id="detail2" action="mailto:imanamran@gmail.com" method="post" enctype="text/plain">
+								<table>
+									<tr>
+										<td>Date</td>
+										<td><input type="date" name="Date"></input></td>
+									</tr>
+
+									<tr>
+										<td>Time</td>
+										<td><input type="time" id="appt2" name="Time"></input></td>
+									</tr>
+
+									<tr>
+										<td>Attendees</td>
+										<td><input type="number" id="quantity2" name="Quantity" min="1" max="15"></input></td>
+									</tr>
+
+									<tr>
+										<td>Room</td>
+										<td>
+										<select name="Room" class="custom-select">
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											</select>
+										</td>
+									</tr>
+
+									<tr>
+										<td>Wi-Fi</td>
+										<td>
+											<input type="radio" id="yes4" name="Wi-Fi" value="yes"></input>
+					 						<label for="yes4">Yes</label>
+					 						<input type="radio" id="no4" name="Wi-Fi" value="no"></input>
+					  						<label for="no4">No</label>
+					  					</td>
+									</tr>
+
+									<tr>
+										<td>AV</td>
+										<td>
+											<input type="radio" id="yes5" name="AV" value="yes"></input>
+					 						<label for="yes5">Yes</label>
+					 						<input type="radio" id="no5" name="AV" value="no"></input>
+					  						<label for="no5">No</label>
+					  					</td>
+									</tr>
+
+									<tr >
+										<td colspan="2"><input type="submit" value="Book"></input></td>
+									</tr>
+								</table>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div id="catering">
+				<div class="sub-delivery">Catering</div>
+				<div class="booking-shape">
+					<div class="clearfix">
+			  			<div class="box-img">
+							<img class="booking-pic" alt="background imag" src="images/catering.jpg"></img>
+						</div>
+
+						<div class="box">
+							<p>
+								Our experienced culinary team specialises in creating menus that will thrill your guests and elevate your event to even higher levels. With dedicated kitchens on each of our meeting floors, we guarantee that food is fresh, first-class and utterly delicious. We are always delighted to discuss your needs and can develop menus specifically to your theme and requirements.
+							</p>
+						</div>
+
+						<div>
+							<form id="detail3" action="mailto:imanamran@gmail.com" method="post" enctype="text/plain">
+								<table>
+									<tr>
+										<td>Date</td>
+										<td><input type="date" name="date"></input></td>
+									</tr>
+
+									<tr>
+										<td>Time</td>
+										<td><input type="time" id="appt3" name="Time"></input></td>
+									</tr>
+
+									<tr>
+										<td>Attendees</td>
+										<td><input type="number" id="quantity3" name="quantity" min="1" max="100"></input></td>
+									</tr>
+
+									<tr>
+										<td>Address</td>
+										<td>
+											<input type="text" name="Address line 1" placeholder="Address line 1" size="40" required="required" id="address1" maxlength="40"></input>
+					  					</td>
+									</tr>
+
+									<tr>
+										<td></td>
+										<td>
+											<input type="text" name="Address line 2" placeholder="Address line 2" size="40" id="address2" maxlength="40"></input>
+					  					</td>
+									</tr>
+
+									<tr>
+										<td></td>
+										<td>
+											<input type="text" name="Address line 3" placeholder="Address line 3" size="40" id="address3" maxlength="40"></input>
+					  					</td>
+									</tr>
+
+									<tr >
+										<td colspan="2"><input type="submit" value="Book"></input></td>
+									</tr>
+								</table>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div id="kitchen-app">
+				<div class="sub-delivery">Kitchen Appliances</div>
+				<div class="booking-shape">
+					<div class="clearfix">
+		  			<div class="box-img">
+						<img class="booking-pic" alt="background imag" src="images/kitchen.jpg"></img>
+					</div>
+					<div class="box">
+					<p>
+						 Adding a food processor, microwave, dishwasher or hand blender to your event allows you to enjoy the latest in cooking and cooling technology. Prepare more of the dishes you love with ease with a new oven or stove. Take the hassle out of the post dinner clean up with a new large-capacity dishwasher and spend more time with your family and friends. Our selection of freestanding cookers, hobs and hoods also help make your cooking experience a more pleasant one with a wide range of features include a number of energy efficient features that can help you reduce your energy bills. 
+					</p>
+					</div>
+
+					<div class="booking-table">
+					<form id="detail4" action="mailto:imanamran@gmail.com" method="post" enctype="text/plain">
+						<table>
+							<tr>
+								<td>Date</td>
+								<td><input type="date" name="date"></input></td>
+							</tr>
+
+							<tr>
+								<td>Time</td>
+								<td><input type="time" id="appt4" name="Time" size="40"></input></td>
+							</tr>
+
+							<tr>
+								<td>Attendees</td>
+								<td><input type="number" id="quantity4" name="quantity" min="1" max="30"></input></td>
+							</tr>
+
+							<tr>
+								<td>Tools</td>
+								<td>
+									<select name="Service" class="custom-select">
+										<option value="Food processor">Food processor</option>
+										<option value="Microwave">Microwave</option>
+										<option value="Dishwasher">Dishwasher</option>
+										<option value="Hand blender">Hand blender</option>
+										<option value="Mixer Grinder">Mixer Grinder</option>
+										<option value="Pressure cooker">Pressure cooker</option>
+										<option value="Electric Kettle">Electric Kettle</option>
+										<option value="Rice cooker">Rice cooker</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2"><input type="submit" value="Book"></input></td>
+							</tr>
+						</table>
+					</form>
+				</div>
+				</div>
+			</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class='footer-wrapper'>
+				<div class="grey"></div>
+				<hr class='hr-top'></hr>
+				<div class='footer-media'>
+					<ul>
+						<li><a href="https://www.instagram.com/smoothiebowls/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.facebook.com/coconutbowls" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+						<li><a href="https://twitter.com/MySmoothieBowl" target="_blank"><i class="fa fa-twitter"></i></a></li>				
+						<li><a href="https://www.pinterest.com/coconutbowls/_shop/" target="_blank"><i class="fa fa-pinterest-p"></i></a></li>
+						<li><a href="https://thesmoothiebowl.tumblr.com" target="_blank"><i class="fa fa-tumblr"></i></a></li>
+						<li><a href="https://www.youtube.com/c/CoconutBowls/about" target="_blank"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+				</div>
+				<hr class='hr-bottom'></hr>
+			</div>
+
+			<div class="source">
+				Sources: <a href="https://www.freepik.com" target="_blank">Freepik</a>, <a href="https://unsplash.com" target="_blank">Unsplash</a>, <a href="https://fonts.google.com" target="_blank">Google font</a>, <a href="https://www.canvas-events.co.uk/venues/restaurants?_ga=2.11489140.1966553686.1616990765-1710095401.1616990765" target="_blank">Canvas</a>, <a href="https://www.tagvenue.com/rooms/london/653/searcys-at-the-gherkin/single-private-dining-rooms" target="_blank">TagVenue</a>, <a href="https://www.mandarinoriental.com/kuala-lumpur/petronas-towers/luxury-hotel/venues/event-catering" target="_blank">Mandarin Oriental</a> &amp; <a href="https://www.harveynorman.com.my/home-appliances/kitchen-appliances-en/" target="_blank">Harvey Norman</a> 
+			</div>
+			<br></br>
+		</footer>
+	</body>
+
+</html>
+	

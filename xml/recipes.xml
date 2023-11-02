@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<!-- Description: Mangkuk Recipes Page -->
+	<!-- Author: Amirul Iman bin Amran -->
+	<!-- Date: 02/03/2020 -->
+	<!-- Validated: 01/04/2021 -->
+
+	<head>
+		<meta charset='utf-8'></meta>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'></meta>
+		<meta http-equiv='X-UA-compatible' content='ie=edge'></meta>
+		<meta name='description' content='Mangkuk'></meta>
+		<meta name='keywords' content='Mangkuk'></meta>
+		<meta name='author' content='Amirul Iman bin Amran'></meta>
+		<title>Mangkuk</title>
+		<link rel='stylesheet' href='style/style.css'></link>
+		<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;display=swap" rel="stylesheet"></link>
+		<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+		<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&amp;display=swap" rel="stylesheet"></link>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+		<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&amp;display=swap" rel="stylesheet"></link>
+	</head>
+
+	<body>
+		<nav>
+			<div class='wrapper'>
+				<div class='logo'>
+					<a href='index.html'><img alt="Logo" class="mangkuk" src="images/logo.png" width="50" height="50"></img></a>
+				</div>
+				<input type="radio" name="slide" id='menu-btn'></input>
+				<input type="radio" name="slide" id='cancel-btn'></input>
+				<ul class='nav-links'>
+					<li>
+						<label for='cancel-btn' class='btn cancel-btn'>
+							<img class="x" alt="X" src="images/x.png"></img>
+						</label>
+					</li>
+					<li><a href='index.html'>Home</a></li>
+					<li>
+						<a href='#' class='desktop-item'>Services</a>
+						<input type="checkbox" id='showMega'></input>
+						<label for='showMega' class="mobile-item">Services</label>
+						<div class='mega-box'>
+							<div class='content'>
+								<div class='row'>
+									<header><a href='food_delivery.html'>Food Delivery</a></header>
+									<ul class='mega-links'>
+										<li><a href='food_delivery.html#breakfast'>Breakfast</a></li>
+										<li><a href='food_delivery.html#lunch'>Lunch</a></li>
+										<li><a href='food_delivery.html#dinner'>Dinner</a></li>
+										<li><a href='food_delivery.html#special'>Special</a></li>
+									</ul>
+								</div>
+								
+								<div class='row'>
+									<header><a href='recipes.html'>Recipes</a></header>
+									<ul class='mega-links'>
+										<li><a href='recipes.html#ingridients'>Ingridients</a></li>
+										<li><a href='recipes.html#videos'>Videos</a></li>
+										<li><a href='recipes.html#tips&amp;tricks'>Tips &amp; Tricks</a></li>
+										<li><a href='recipes.html#didyouknow'>Did you know?</a></li>
+									</ul>
+								</div>
+								
+								<div class='row'>
+									<header><a href='booking.html'>Booking</a></header>
+									<ul class='mega-links'>
+										<li><a href='booking.html#whole-restaurant'>Whole restaurant</a></li>
+										<li><a href='booking.html#rooms'>Rooms</a></li>
+										<li><a href='booking.html#catering'>Catering</a></li>
+										<li><a href='booking.html#kitchen-app'>Kitchen appliances</a></li>
+									</ul>
+								</div>
+								
+								<div class='row'>
+									<header><a href='jobs.html'>Jobs</a></header>
+									<ul class='mega-links'>
+										<li><a href='jobs.html#manager'>Manager</a></li>
+										<li><a href='jobs.html#chef'>Chef</a></li>
+										<li><a href='jobs.html#cashier'>Cashier</a></li>
+										<li><a href='jobs.html#janitor'>Janitor</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href='#' class='desktop-item'>About us</a>
+						<input type="checkbox" id='showDrop'></input>
+						<label for='showDrop' class="mobile-item">About Us</label>
+							<ul class='drop-menu'>
+								<li><a href='aboutus.html'>Mangkuk</a></li>
+								<li><a href='aboutme.html'>Author</a></li>
+							</ul>
+					</li>
+					<li><a href='enquiry.html'>Enquiry</a></li>
+					<li><a href='enhancement.html'>Enhancement</a></li>
+					<li><a href='disclaimer.html'>Disclaimer</a></li>
+				</ul> 
+				<label for='menu-btn' class='btn menu-btn'>
+					<a> &#9776; </a>
+				</label>
+			</div>
+		</nav>
+
+		<header>
+			<div class='container'>
+				<img alt="background image" class="background-image" src="images/recipes.jpg"></img>
+				<div class="welcome-wrapper">
+					<div class='service-topic'>Recipes</div>
+				</div>
+			</div>
+		</header>
+
+		<section>
+			<div class='taste'>
+				<h2>Description</h2>
+				<p class="desc-pa"> The best thing in the world is when we make something with our own hands. Creating smoothies not only benefits us with a healthy lifestyle, but a way for us to connect with nature. A smoothie at its core is made of fruits. Creating a smoothie is the same as painting an art. In order for us to deliver this experience to everyone, we introduce an outright environment of smoothies. We provide a thorough explanation of our recipes that encourage everyone a chance to try this at home. In this way, people can understand more about smoothie from A to Z. Besides, we let them know our tips and tricks for creating the best smoothies ever. Everyone has a different taste; that is why our recipes will guide them to alter their smoothies based on their own preferences. Not only that, but we also promote the benefits of consuming smoothies in our daily lives. To make it easy for everyone to follow, we divide our sections into 4 categories, Ingredients, videos, tips &amp; tricks and ‘Did you know?’. Ingredients are for those who prefer no guidance but only through reading. On the other hands, videos will help those who prefer guidance and detailed explanation. Tips &amp; tricks allow people to alter their own smoothies. Lastly, ‘Did you know?’ is for giving insight about smoothies benefits. </p>
+			</div>
+		</section>
+
+		<section>
+			<div id="ingridients">
+				<h1 class="sub-delivery">Ingridients</h1>
+
+				<div class="r-flip-card">
+			  		<div class="r-flip-card-inner">
+			    		<div class="r-flip-card-front">
+			      			<img class="r-pic" src="images/prod1.jpg" alt="Avatar"></img>
+			      			<h1>Strawberry Bowl</h1>
+			    		</div>
+				    	<div class="r-flip-card-back"> 
+				      		 <div>Ingridients</div>
+				      		 <p>1 banana, frozen</p> 
+					      	 <p>1½ cups frozen strawberries</p>
+					         <p>½ cup Silk Unsweetened Coconut Milk</p>
+					      	 <p>Simple Truth Freeze Dried Strawberries + Bananas</p>
+					      	 <p>Fresh strawberries, sliced</p>
+					      	 <p>Fresh bananas, sliced</p>
+					      	 <p>Chia seeds</p>
+				    	</div>
+			  		</div>
+				</div>
+
+				<div class="r-flip-card">
+			  		<div class="r-flip-card-inner">
+			    		<div class="r-flip-card-front">
+			      			<img class="r-pic" src="images/prod2.jpg" alt="Avatar"></img>
+			      			<h1>Acai Bowl</h1>
+			    		</div>
+				    	<div class="r-flip-card-back"> 
+				      		 <div>Ingridients</div>
+				      		 <p>Pure Unsweetened Acai Puree</p> 
+					      	 <p>Frozen blueberries and strawberries</p>
+					         <p>Banana</p>
+					      	 <p>Liquid</p>
+					      	 <p>Yogurt</p>
+					      	 <p>Fresh sliced fruit</p>
+					      	 <p>Nuts</p>
+				    	</div>
+			  		</div>
+				</div>
+
+				<div class="r-flip-card">
+			  		<div class="r-flip-card-inner">
+			    		<div class="r-flip-card-front">
+			      			<img class="r-pic" src="images/prod5.jpg"  alt="avatar"></img>
+			      			<h1>Dargon Fruit Bowl</h1>
+			    		</div>
+				    	<div class="r-flip-card-back"> 
+				      		 <div>Ingridients</div>
+				      		 <p>2 cups frozen dragon fruit cubes</p> 
+					      	 <p>1/3 cup plain greek yogurt</p>
+					         <p>Yogurt</p>
+					      	 <p>Kajang, Selangor, Malaysia</p>
+					      	 <p>1 banana</p>
+					      	 <p>Strawberries</p>
+					      	 <p>Nuts</p>
+					      	 <p>Blueberries</p>
+				    	</div>
+			  		</div>
+				</div>
+
+				<div class="r-flip-card">
+			  		<div class="r-flip-card-inner">
+			    		<div class="r-flip-card-front">
+			      			<img class="r-pic" src="images/prod6.jpg"  alt="avatar"></img>
+			      			<h1>Avocado Bowl</h1>
+			    		</div>
+				    	<div class="r-flip-card-back"> 
+				      		 <div>Ingridients</div>
+				      		 <p>2 bananas frozen</p> 
+					      	 <p>1 ripe avocado</p>
+					         <p>1 small ripe mango</p>
+					      	 <p>100g spinach</p>
+					      	 <p>250ml milk </p>
+					      	 <p>1 tbsp unsweetened almond</p>
+					      	 <p>1 tbsp honey</p>
+					      	 <p>Chia seeds</p>
+				    	</div>
+			  		</div>
+				</div>
+
+				<div class="r-flip-card">
+			  		<div class="r-flip-card-inner">
+			    		<div class="r-flip-card-front">
+			      			<img class="r-pic" src="images/prod9.jpg"  alt="avatar"></img>
+			      			<h1>Charcoal Bowl</h1>
+			    		</div>
+				    	<div class="r-flip-card-back"> 
+				      		 <div>Ingridients</div>
+				      		 <p>1 frozen banana</p> 
+					      	 <p>1/4 cup frozen blueberries</p>
+					         <p>1/4 cup frozen pineapple</p>
+					      	 <p>2 tsp. activated charcoal powder</p>
+					      	 <p>1 tsp. mushroom powder</p>
+					      	 <p>1/2 cup coconut water</p>
+					      	 <p>Handful spinach</p>
+				    	</div>
+			  		</div>
+				</div>
+
+				<div class="r-flip-card">
+			  		<div class="r-flip-card-inner">
+			    		<div class="r-flip-card-front">
+			      			<img class="r-pic" src="images/prod10.jpg" alt="Avatar"></img>
+			      			<h1>Red Berry Bowl</h1>
+			    		</div>
+				    	<div class="r-flip-card-back"> 
+				      		 <div>Ingridients</div>
+				      		 <p>1 cup frozen raspberries</p> 
+					      	 <p>1 cup frozen strawberries</p>
+					         <p>1 cup finely chopped romaine stems</p>
+					      	 <p>1 gala apple , finel chopped</p>
+					      	 <p>1 frozen banana , broken in half</p>
+					      	 <p>1/2 cup 2% plain yogurt</p>
+					      	 <p>1 tsp manuka honey , optional</p>
+				    	</div>
+			  		</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div id="videos">
+				<h1 class="sub-delivery">Videos</h1>
+				<div class="video-shape">
+					<iframe width="560" height="315" class="responsive-iframe" src="https://www.youtube-nocookie.com/embed/VYYhlbeTdbU"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+				</div>
+
+				<div class="video-shape">
+					<iframe width="560" height="315" class="responsive-iframe" src="https://www.youtube.com/embed/WVNVVPleY4U"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+					</iframe>
+				</div>
+
+				<div class="video-shape">
+					<iframe width="560" height="315" class="responsive-iframe" src="https://www.youtube.com/embed/DNHLBN3f5iI"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+					</iframe>
+				</div>
+
+				<div class="video-shape">
+					<iframe width="560" height="315" class="responsive-iframe" src="https://www.youtube.com/embed/gisTl8oELHo"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div id="tips&amp;tricks">
+				<h1 class="sub-delivery">Tips &amp; Tricks</h1>
+
+					<div class="r-flip-card">
+				  		<div class="r-flip-card-inner">
+				    		<div class="r-flip-card-front">
+				      			<div class="tips">How to Make a Smoothie Thinner?</div>
+				    		</div>
+					    	<div class="r-flip-card-back"> 
+					      		 
+						      		 <div class="tricks">
+						      		 	<div>Tips &amp; Tricks</div>
+							      		 <p>Add small amounts of water, milk, or juice. Work your machine back up to its highest speed, and process for 10-20 seconds.</p> 
+								      	 <p>Load the container in the following order: liquids first, then soft fruits or vegetables, greens, and ice on top.</p>
+							      	</div>
+					    	</div>
+				  		</div>
+					</div>
+
+					<div class="r-flip-card">
+				  		<div class="r-flip-card-inner">
+				    		<div class="r-flip-card-front">
+				      			<div class="tips">How to Make a Smoothie Thicker?</div>
+				    		</div>
+					    	<div class="r-flip-card-back"> 
+					      		 
+						      		 <div class="tricks">
+						      		 	<div>Tips &amp; Tricks</div>
+							      		 <p>Use or add frozen fruit (especially bananas), add more ice, or add frozen yogurt. Work your machine back up to its highest speed, and process for 20-30 seconds</p> 
+								      	 <p>Add a variety of fruits/ vegetables or greens in an assortment of textures.</p>
+							      	</div>
+					    	</div>
+				  		</div>
+					</div>
+
+					<div class="r-flip-card">
+				  		<div class="r-flip-card-inner">
+				    		<div class="r-flip-card-front">
+				      			<div class="tips">How to Make a Smoothie Less Bitter?</div>
+				    		</div>
+					    	<div class="r-flip-card-back"> 
+					      		 
+						      		 <div class="tricks">
+						      		 	<div>Tips &amp; Tricks</div>
+							      		 <p>Pineapple and oranges both add lots of fruity sweetness. Banana, in addition to being sweet, seems to neutralize bitter flavors. Strawberries are also good choices for green smoothies. </p> 
+								      	 <p>Baby greens are generally milder than mature greens. Tastes do change and adapt to new eating habits. </p>
+							      	</div>
+					    	</div>
+				  		</div>
+					</div>
+
+					<div class="r-flip-card">
+				  		<div class="r-flip-card-inner">
+				    		<div class="r-flip-card-front">
+				      			<div class="tips">How to Make a Smoothie Less Sweet?</div>
+				    		</div>
+					    	<div class="r-flip-card-back"> 
+					      		 
+						      		 <div class="tricks">
+						      		 	<div>Tips &amp; Tricks</div>
+							      		 <p>Add a touch of lemon juice or frozen lemonade concentrate. Work your machine back up to its highest speed, and process for 10-20 seconds.</p> 
+								      	 <p>Fruits add their own natural sweetness, so use a balance of sweet and citrus fruits and reduce or eliminate other sweeteners like honey or agave.</p>
+							      	</div>
+					    	</div>
+				  		</div>
+					</div>
+
+					<div class="r-flip-card">
+				  		<div class="r-flip-card-inner">
+				    		<div class="r-flip-card-front">
+				      			<div class="tips">How to Make a Smoothie Sweeter?</div>
+				    		</div>
+					    	<div class="r-flip-card-back"> 
+					      		 
+						      		 <div class="tricks">
+						      		 	<div>Tips &amp; Tricks</div>
+							      		 <p>Add honey, agave, maple syrup, Stevia, dates, grapes, or a little sugar. Using watermelon in place of water will sweeten a smoothie. Work your machine back up to its highest speed, and process for 10-20 seconds.</p> 
+								      	 <p>A little sweetener goes a long way, so add small amounts at a time.</p>
+							      	</div>
+					    	</div>
+				  		</div>
+					</div>
+
+					<div class="r-flip-card">
+				  		<div class="r-flip-card-inner">
+				    		<div class="r-flip-card-front">
+				      			<div class="tips">How to Make a Smoothie Creamier?</div>
+				    		</div>
+					    	<div class="r-flip-card-back"> 
+					      		 
+						      		 <div class="tricks">
+						      		 	<div>Tips &amp; Tricks</div>
+							      		 <p>Avocado is ideal for adding creaminess to smoothies. Its mild flavor disguises its nutritional wallop. After removing its skin and pit, you can add a whole avocado to your smoothie, or save some for the next day.</p> 
+								      	 <p>Smoothies need a good blend of liquid and solid ingredients to achieve just the right texture.</p>
+							      	</div>
+					    	</div>
+				  		</div>
+					</div>
+			</div>
+		</section>
+
+		<section>
+			<div id="didyouknow">
+				<h1 class="sub-delivery">Did you know that smoothie?</h1>
+
+					<div class="r-flip-card">
+				  		<div class="r-flip-card-inner">
+				    		<div class="r-flip-card-front">
+				      			<div class="tips">Curbs Sleep Disorders</div>
+				    		</div>
+					    	<div class="r-flip-card-back"> 
+					      		 
+						      		 <div class="tricks">
+							      		 <p>People belonging to different age groups around the world often face issues related to lack of sleep and restlessness. A healthy breakfast accompanied by a smoothie made of bananas, kiwi and oats provides calcium and magnesium in good amounts. This induces sleep and helps maintain healthy sleeping patterns.</p>
+							      	</div>
+					    	</div>
+				  		</div>
+					</div>
+
+					<div class="r-flip-card">
+				  		<div class="r-flip-card-inner">
+				    		<div class="r-flip-card-front">
+				      			<div class="tips">Provides a Good Amount of Fiber</div>
+				    		</div>
+					    	<div class="r-flip-card-back"> 
+					      		 
+						      		 <div class="tricks">
+							      		 <p>The most common problem people suffer from today is related to upset bowels. A good amount of fibrous food is essential for regulating the excretory system so that you can enjoy summer without worrying about your health. Smoothies with a lot of fruits and vegetables help keep your bowels functioning smoothly.</p>
+							      	</div>
+					    	</div>
+				  		</div>
+					</div>
+
+					<div class="r-flip-card">
+				  		<div class="r-flip-card-inner">
+				    		<div class="r-flip-card-front">
+				      			<div class="tips">Reduces Chances of Cancer</div>
+				    		</div>
+					    	<div class="r-flip-card-back"> 
+					      		 
+						      		 <div class="tricks">
+							      		 <p>Several health reports published worldwide suggest that foods like cabbage, broccoli, and cauliflower are helpful in fighting against cancer. They attack free radicals and thus prevent cancer. Smoothies made of these ingredients prove really helpful in preventing cancer growth.</p>
+							      	</div>
+					    	</div>
+				  		</div>
+					</div>
+
+					<div class="r-flip-card">
+				  		<div class="r-flip-card-inner">
+				    		<div class="r-flip-card-front">
+				      			<div class="tips">Boosts Brain Power</div>
+				    		</div>
+					    	<div class="r-flip-card-back"> 
+					      		 
+						      		 <div class="tricks">
+							      		 <p>It is quite evident that that certain fruits and vegetables increase brain power and boost memory. Mental alertness and concentration is greatly enhanced by ingredients like coconut that are rich in omega-3 fatty acids. Smoothies with these ingredients help the brain work faster.</p>
+							      	</div>
+					    	</div>
+				  		</div>
+					</div>
+
+					<div class="r-flip-card">
+				  		<div class="r-flip-card-inner">
+				    		<div class="r-flip-card-front">
+				      			<div class="tips">Improves Bone Health</div>
+				    		</div>
+					    	<div class="r-flip-card-back"> 
+					      		 
+						      		 <div class="tricks">
+							      		 <p>Calcium, vitamin D3 and vitamin K are nutrients that improve bone health. Smoothies rich in these nutrients contain spinach, green vegetables and citrus fruits as chief ingredients. So for the best breakfast in Edmond, you should try some cool smoothies that ensure your bones stay healthy forever.</p>
+							      	</div>
+					    	</div>
+				  		</div>
+					</div>
+
+					<div class="r-flip-card">
+				  		<div class="r-flip-card-inner">
+				    		<div class="r-flip-card-front">
+				      			<div class="tips">Prevents Heart Disorders</div>
+				    		</div>
+					    	<div class="r-flip-card-back"> 
+					      		 
+						      		 <div class="tricks">
+							      		 <p>Coronary diseases, or ailments related to heart, require nutrient-rich food along with appropriate medication. Timely breakfast that contains fat-free foods like oats and smoothies accompanied by regular exercising is the key for patients wishing to keep away from heart disorders.</p>
+							      	</div>
+					    	</div>
+				  		</div>
+					</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class='footer-wrapper'>
+				<div class="grey"></div>
+				<hr class='hr-top'></hr>
+				<div class='footer-media'>
+					<ul>
+						<li><a href="https://www.instagram.com/smoothiebowls/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.facebook.com/coconutbowls" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+						<li><a href="https://twitter.com/MySmoothieBowl" target="_blank"><i class="fa fa-twitter"></i></a></li>				
+						<li><a href="https://www.pinterest.com/coconutbowls/_shop/" target="_blank"><i class="fa fa-pinterest-p"></i></a></li>
+						<li><a href="https://thesmoothiebowl.tumblr.com" target="_blank"><i class="fa fa-tumblr"></i></a></li>
+						<li><a href="https://www.youtube.com/c/CoconutBowls/about" target="_blank"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+				</div>
+				<hr class='hr-bottom'></hr>
+			</div>
+			<div class="source">
+				Sources: <a href="https://unsplash.com" target="_blank">Unsplash</a>, <a href="https://www.freepik.com" target="_blank">Freepik</a>, <a href="https://www.vitamix.com/vr/nl_nl/6-tips-and-tricks-for-your-first-blends" target="_blank">Vitamix</a>, <a href="https://thatsmyjamok.com/23-important-benefits-of-drinking-healthy-smoothies/" target="_blank">Neighborhood Jam</a> &amp; <a href="https://fonts.google.com" target="_blank">Google font</a>
+			</div>
+			<br></br>
+		</footer>
+	</body>
+
+</html>
+	

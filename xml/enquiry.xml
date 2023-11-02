@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<!-- Description: Mangkuk Enquiry Page -->
+	<!-- Author: Amirul Iman bin Amran -->
+	<!-- Date: 02/03/2020 -->
+	<!-- Validated: 01/04/2021 -->
+
+	<head>
+		<meta charset='utf-8'></meta>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'></meta>
+		<meta http-equiv='X-UA-compatible' content='ie=edge'></meta>
+		<meta name='description' content='Mangkuk'></meta>
+		<meta name='keywords' content='Mangkuk'></meta>
+		<meta name='author' content='Amirul Iman bin Amran'></meta>
+		<title>Mangkuk</title>
+		<link rel='stylesheet' href='style/style.css'></link>
+		<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;display=swap" rel="stylesheet"></link>
+		<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+		<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&amp;display=swap" rel="stylesheet"></link>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+		<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&amp;display=swap" rel="stylesheet"></link>
+	</head>
+
+	<body>
+		<nav>
+			<div class='wrapper'>
+				<div class='logo'>
+					<a href='index.html'><img alt="Logo" class="mangkuk" src="images/logo.png" width="50" height="50"></img></a>
+				</div>
+				<input type="radio" name="slide" id='menu-btn'></input>
+				<input type="radio" name="slide" id='cancel-btn'></input>
+				<ul class='nav-links'>
+					<li>
+						<label for='cancel-btn' class='btn cancel-btn'>
+							<img class="x" alt="X" src="images/x.png"></img>
+						</label>
+					</li>
+					<li><a href='index.html'>Home</a></li>
+					<li>
+						<a href='#' class='desktop-item'>Services</a>
+						<input type="checkbox" id='showMega'></input>
+						<label for='showMega' class="mobile-item">Services</label>
+						<div class='mega-box'>
+							<div class='content'>
+								<div class='row'>
+									<header><a href='food_delivery.html'>Food Delivery</a></header>
+									<ul class='mega-links'>
+										<li><a href='food_delivery.html#breakfast'>Breakfast</a></li>
+										<li><a href='food_delivery.html#lunch'>Lunch</a></li>
+										<li><a href='food_delivery.html#dinner'>Dinner</a></li>
+										<li><a href='food_delivery.html#special'>Special</a></li>
+									</ul>
+								</div>
+								
+								<div class='row'>
+									<header><a href='recipes.html'>Recipes</a></header>
+									<ul class='mega-links'>
+										<li><a href='recipes.html#ingridients'>Ingridients</a></li>
+										<li><a href='recipes.html#videos'>Videos</a></li>
+										<li><a href='recipes.html#tips&amp;tricks'>Tips &amp; Tricks</a></li>
+										<li><a href='recipes.html#didyouknow'>Did you know?</a></li>
+									</ul>
+								</div>
+								
+								<div class='row'>
+									<header><a href='booking.html'>Booking</a></header>
+									<ul class='mega-links'>
+										<li><a href='booking.html#whole-restaurant'>Whole restaurant</a></li>
+										<li><a href='booking.html#rooms'>Rooms</a></li>
+										<li><a href='booking.html#catering'>Catering</a></li>
+										<li><a href='booking.html#kitchen-app'>Kitchen appliances</a></li>
+									</ul>
+								</div>
+								
+								<div class='row'>
+									<header><a href='jobs.html'>Jobs</a></header>
+									<ul class='mega-links'>
+										<li><a href='jobs.html#manager'>Manager</a></li>
+										<li><a href='jobs.html#chef'>Chef</a></li>
+										<li><a href='jobs.html#cashier'>Cashier</a></li>
+										<li><a href='jobs.html#janitor'>Janitor</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href='#' class='desktop-item'>About us</a>
+						<input type="checkbox" id='showDrop'></input>
+						<label for='showDrop' class="mobile-item">About Us</label>
+							<ul class='drop-menu'>
+								<li><a href='aboutus.html'>Mangkuk</a></li>
+								<li><a href='aboutme.html'>Author</a></li>
+							</ul>
+					</li>
+					<li><a href='enquiry.html'>Enquiry</a></li>
+					<li><a href='enhancement.html'>Enhancement</a></li>
+					<li><a href='disclaimer.html'>Disclaimer</a></li>
+				</ul> 
+				<label for='menu-btn' class='btn menu-btn'>
+					<a> &#9776; </a>
+				</label>
+			</div>
+		</nav>
+
+		<header>
+			<div class='container'>
+				<img alt="background imag" class="background-image" src="images/enquiry.jpg"></img>
+				<div class="welcome-wrapper">
+					<div class='service-topic'>Enquiry</div>
+				</div>
+			</div>
+		</header>
+
+		<section>
+			<h1 class="desc-h1">Submit an enquiry</h1>
+
+			<div class="form-wrapper">
+				<div class="enquiry-form">
+					<form id="detail" action="mailto:imanamran@gmail.com" method="post" enctype="text/plain">
+						<fieldset>
+							<table>
+								<tr>
+									<td>First name</td>
+									<td>Last name</td>
+								</tr>
+
+								<tr>
+									<td><input type="text" name="First name" placeholder="First name" size="20" required="required" id="name1" maxlength="25" pattern="[a-zA-Z]+" title="Alphabetical characters only"></input></td>
+									<td><input type="text" name="Last name" placeholder="Last name" size="20" required="required" id="name2" maxlength="25" pattern="[a-zA-Z]+" title="Alphabetical characters only"></input></td>
+									
+								</tr>
+
+								<tr>
+									<td>E-mail address</td>
+									<td></td>
+								</tr>
+
+								<tr>
+									<td colspan ="2"><input type="text" name="E-mail address" placeholder="Last name" size="40" required="required" id="name3" maxlength="25"></input></td>
+								</tr>
+
+
+
+								<tr>
+									<td>Address</td>
+									<td></td>
+								</tr>
+
+								<tr>
+									<td class="address">Street address</td>
+									<td><input type="text" name="Street address" placeholder="Street address" size="40" required="required" id="name4" maxlength="40"></input></td>
+								</tr>
+
+								<tr>
+									<td class="address">City/town</td>
+									<td><input type="text" name="City/town" placeholder="City/town" size="40" required="required" id="name5" maxlength="20"></input></td>
+								</tr>
+
+								<tr>
+									<td class="address">State</td>
+									<td>
+										<select name="State" class="custom-select" style="width:200px;">
+											<optgroup label="States">
+												<option value="johor">Johor</option>
+												<option value="kedah">Kedah</option>
+												<option value="kelantan">Kelantan</option>
+												<option value="malacca">Malacca</option>
+												<option value="negeri_sembilan">Negeri Sembilan</option>
+												<option value="pahang">Pahang</option>
+												<option value="penang">Penang</option>
+												<option value="perak">Perak</option>
+												<option value="perlis">Perlis</option>
+												<option value="sabah">Sabah</option>
+												<option value="sarawak">Sarawak</option>
+												<option value="selangor">Selangor</option>
+												<option value="terengganu">Terengganu</option>
+												<option value="penang">Penang</option>
+												<option value="perak">Perak</option>	
+											</optgroup>
+											
+											<optgroup label="Federal Territories">
+												<option value="kuala_lumpur">Kuala Lumpur</option>
+												<option value="labuan">Labuan</option>
+												<option value="putrajaya">Putrajaya</option>
+											</optgroup>
+										</select>
+								
+									</td>
+								</tr>
+
+								<tr>
+									<td class="address">Postcode</td>
+									<td><input type="text" name="Postcode" placeholder="Postcode" size="40" required="required" id="name6" maxlength="5" pattern="[0-9]+" title="Numbers only"></input></td>
+								</tr>
+
+								<tr>
+									<td>Phone number</td>
+									<td><input type="text" name="Phone number" placeholder="Phone number" size="40" required="required" id="name7" maxlength="10" pattern="[0-9]+" title="Numbers only"></input></td>
+								</tr>
+
+								<tr>
+									<td>Service</td>
+									<td>
+										<select name="Service" class="custom-select" style="width:200px;">
+											<option value="Food Delivery">Food Delivery</option>
+											<option value="Recipes">Recipes</option>
+											<option value="Booking">Booking</option>
+											<option value="Jobs">Jobs</option>
+										</select>
+									</td>
+								</tr>
+
+								<tr>
+									<td>Comment</td>
+									<td><textarea name="comment" placeholder="Comment" rows="3" cols="40"></textarea></td>
+								</tr>
+							</table>
+						</fieldset>
+						<input type="submit" value="Submit"></input>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class='footer-wrapper'>
+				<div class="grey"></div>
+				<hr class='hr-top'></hr>
+				<div class='footer-media'>
+					<ul>
+						<li><a href="https://www.instagram.com/smoothiebowls/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.facebook.com/coconutbowls" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+						<li><a href="https://twitter.com/MySmoothieBowl" target="_blank"><i class="fa fa-twitter"></i></a></li>				
+						<li><a href="https://www.pinterest.com/coconutbowls/_shop/" target="_blank"><i class="fa fa-pinterest-p"></i></a></li>
+						<li><a href="https://thesmoothiebowl.tumblr.com" target="_blank"><i class="fa fa-tumblr"></i></a></li>
+						<li><a href="https://www.youtube.com/c/CoconutBowls/about" target="_blank"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+				</div>
+				<hr class='hr-bottom'></hr>
+				<div class="source">
+					Sources: <a href="https://www.freepik.com" target="_blank">Freepik</a>, <a href="https://unsplash.com" target="_blank">Unsplash</a> &amp; <a href="https://fonts.google.com" target="_blank">Google font</a>
+				</div>
+				<br></br>
+			</div>
+		</footer>
+	</body>
+
+</html>
+	

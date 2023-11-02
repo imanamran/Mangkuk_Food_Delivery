@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<!-- Description: Mangkuk Food Delivery Page -->
+	<!-- Author: Amirul Iman bin Amran -->
+	<!-- Date: 02/03/2020 -->
+	<!-- Validated: 01/04/2021 -->
+
+	<head>
+		<meta charset='utf-8'></meta>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'></meta>
+		<meta http-equiv='X-UA-compatible' content='ie=edge'></meta>
+		<meta name='description' content='Mangkuk'></meta>
+		<meta name='keywords' content='Mangkuk'></meta>
+		<meta name='author' content='Amirul Iman bin Amran'></meta>
+		<title>Mangkuk</title>
+		<link rel='stylesheet' href='style/style.css'></link>
+		<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;display=swap" rel="stylesheet"></link>
+		<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+		<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&amp;display=swap" rel="stylesheet"></link>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+		<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&amp;display=swap" rel="stylesheet"></link>
+	</head>
+
+	<body>
+		<nav>
+			<div class='wrapper'>
+				<div class='logo'>
+					<a href='index.html'><img alt="Mangkuk" class="mangkuk" src="images/logo.png" width="50" height="50"></img></a>
+				</div>
+				<input type="radio" name="slide" id="menu-btn"></input>
+				<input type="radio" name="slide" id="cancel-btn"></input>
+				<ul class='nav-links'>
+					<li>
+						<label for='cancel-btn' class='btn cancel-btn'>
+							<img class="x" alt="X" src="images/x.png"></img>
+						</label>
+					</li>
+					<li><a href='index.html'>Home</a></li>
+					<li>
+						<a href='#' class='desktop-item'>Services</a>
+						<input type="checkbox" id="showMega"></input>
+						<label for='showMega' class="mobile-item">Services</label>
+						<div class='mega-box'>
+							<div class='content'>
+								<div class='row'>
+									<header><a href='food_delivery.html'>Food Delivery</a></header>
+									<ul class='mega-links'>
+										<li><a href='food_delivery.html#breakfast'>Breakfast</a></li>
+										<li><a href='food_delivery.html#lunch'>Lunch</a></li>
+										<li><a href='food_delivery.html#dinner'>Dinner</a></li>
+										<li><a href='food_delivery.html#special'>Special</a></li>
+									</ul>
+								</div>
+								
+								<div class='row'>
+									<header><a href='recipes.html'>Recipes</a></header>
+									<ul class='mega-links'>
+										<li><a href='recipes.html#ingridients'>Ingridients</a></li>
+										<li><a href='recipes.html#videos'>Videos</a></li>
+										<li><a href='recipes.html#tips&amp;tricks'>Tips &amp; Tricks</a></li>
+										<li><a href='recipes.html#didyouknow'>Did you know?</a></li>
+									</ul>
+								</div>
+								
+								<div class='row'>
+									<header><a href='booking.html'>Booking</a></header>
+									<ul class='mega-links'>
+										<li><a href='booking.html#whole-restaurant'>Whole restaurant</a></li>
+										<li><a href='booking.html#rooms'>Rooms</a></li>
+										<li><a href='booking.html#catering'>Catering</a></li>
+										<li><a href='booking.html#kitchen-app'>Kitchen appliances</a></li>
+									</ul>
+								</div>
+								
+								<div class='row'>
+									<header><a href='jobs.html'>Jobs</a></header>
+									<ul class='mega-links'>
+										<li><a href='jobs.html#manager'>Manager</a></li>
+										<li><a href='jobs.html#chef'>Chef</a></li>
+										<li><a href='jobs.html#cashier'>Cashier</a></li>
+										<li><a href='jobs.html#janitor'>Janitor</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href='#' class='desktop-item'>About us</a>
+						<input type="checkbox" id="showDrop"></input>
+						<label for='showDrop' class="mobile-item">About Us</label>
+							<ul class='drop-menu'>
+								<li><a href='aboutus.html'>Mangkuk</a></li>
+								<li><a href='aboutme.html'>Author</a></li>
+							</ul>
+					</li>
+					<li><a href='enquiry.html'>Enquiry</a></li>
+					<li><a href='enhancement.html'>Enhancement</a></li>
+					<li><a href='disclaimer.html'>Disclaimer</a></li>
+				</ul> 
+				<label for='menu-btn' class='btn menu-btn'>
+					<a> &#9776; </a>
+				</label>
+			</div>
+		</nav>
+
+		<header>
+			<div class='container'>
+				<img alt="background image" class="background-image" src="images/food-delivery.jpg"></img>
+				<div class="welcome-wrapper">
+					<div class='service-topic'>Food Delivery</div>
+				</div>
+			</div>
+		</header>
+
+		<section>
+			<div class='taste'>
+				<h2>Description</h2>
+				<p class="desc-pa">
+					We don’t always have to search for foods, sometimes we have to open our doors and let them come to us. With the food delivery service, you can order our food at your fingertips without having to go to the restaurant. Despite COVID-19, we aim to deliver them as if you were in our restaurant because our foods imbued by the vibes. There are things in our life that can only be with us through thick, but foods always be with us through thin. At the same time, we have to maintain our healthy consumption and smoothies are the best to help us in our horrendous moment of life. Smoothies can be consumed at any time and place. Thanks to our delivery service, our menu transcends all meals, breakfast, lunch &amp; dinner. Even more, we allow you to order more than just these ordinary meals but also a special category, specifically to let you experience a whole new taste of smoothies. Smoothie is the best way for every beginner to be part of the green cycle. In life, much like smoothies, you get out what you put in. A healthy person starts from the inside; it begins with a Mangkuk smoothie.
+				</p>
+			</div> 
+		</section>
+
+		<section>
+			<div id="breakfast" class="sub-delivery-wrapper">
+				<h1 class="sub-delivery">Breakfast</h1>
+				<div class='product'>
+					<div class="rounded-shape">
+						<img alt="Strawberry Bowl" src="images/Prod1.jpg"></img>
+						<p>Strawberry Bowl</p>
+						<p>RM 15.00</p>
+					</div>
+
+					<div class="rounded-shape">
+						<img alt="Acai Bowl" src="images/Prod2.jpg"></img>
+						<p>Acai Bowl</p>
+						<p>RM 15.00</p>
+					</div>
+
+					<div class="rounded-shape">
+						<img alt="Mango Bowl" src="images/Prod3.jpg"></img>
+						<p>Mango Bowl</p>
+						<p>RM 15.00</p>
+					</div>
+
+					<div class="rounded-shape">
+						<img alt="Ocean Blue Bowl" src="images/Prod4.jpg"></img>
+						<p>Ocean Blue Bowl</p>
+						<p>RM 15.00</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div id="lunch" class="sub-delivery-wrapper">
+				<h1 class="sub-delivery">Lunch</h1>
+
+				<div class='product'>
+					<div class="rounded-shape">
+						<img alt="Dragon Fruit Bowl" src="images/Prod5.jpg"></img>
+						<p>Dragon Fruit Bowl</p>
+						<p>RM 15.00</p>
+					</div>
+
+					<div class="rounded-shape">
+						<img alt="Avocado Bowl" src="images/Prod6.jpg"></img>
+						<p>Avocado Bowl</p>
+						<p>RM 15.00</p>
+					</div>
+
+					<div class="rounded-shape">
+						<img alt="Berry + Banana Bowl" src="images/Prod7.jpg"></img>
+						<p>Berry + Banana Bowl</p>
+						<p>RM 15.00</p>
+					</div>
+
+					<div class="rounded-shape">
+						<img alt="Orange Bowl" src="images/Prod8.jpg"></img>
+						<p>Orange Bowl</p>
+						<p>RM 15.00</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div id="dinner" class="sub-delivery-wrapper">
+				<h1 class="sub-delivery">Dinner</h1>
+
+				<div class='product'>
+					<div class="rounded-shape">
+						<img alt="Charcoal Bowl" src="images/Prod9.jpg"></img>
+						<p>Charcoal Bowl</p>
+						<p>RM 15.00</p>
+					</div>
+
+					<div class="rounded-shape">
+						<img alt="Red Berry Bowl" src="images/Prod10.jpg"></img>
+						<p>Red Berry Bowl</p>
+						<p>RM 15.00</p>
+					</div>
+
+					<div class="rounded-shape">
+						<img alt="Pineapple Bowl" src="images/Prod11.jpg"></img>
+						<p>Pineapple Bowl</p>
+						<p>RM 15.00</p>
+					</div>
+
+					<div class="rounded-shape">
+						<img alt="Spinach + Kale Bowl" src="images/Prod12.jpg"></img>
+						<p>Spinach + Kale Bowl</p>
+						<p>RM 15.00</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div id="special" class="sub-delivery-wrapper">
+				<h1 class="sub-delivery">Special</h1>
+
+				<div class='product'>
+					<div class="rounded-shape">
+						<img alt="Vegan Bowl" src="images/Prod13.jpg"></img>
+						<p>Vegan Bowl</p>
+						<p>RM 30.00</p>
+					</div>
+
+					<div class="rounded-shape">
+						<img alt="Caramel Bowl" src="images/Prod14.jpg"></img>
+						<p>Caramel Bowl</p>
+						<p>RM 30.00</p>
+					</div>
+
+					<div class="rounded-shape">
+						<img alt="Gold Bowl" src="images/Prod15.jpg"></img>
+						<p>Gold Bowl</p>
+						<p>RM 30.00</p>
+					</div>
+
+					<div class="rounded-shape">
+						<img alt="Rainbow Bowl" src="images/Prod16.jpg"></img>
+						<p>Rainbow Bowl</p>
+						<p>RM 30.00</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class='footer-wrapper'>
+				<div class="grey"></div>
+				<hr class='hr-top'></hr>
+				<div class='footer-media'>
+					<ul>
+						<li><a href="https://www.instagram.com/smoothiebowls/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.facebook.com/coconutbowls" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+						<li><a href="https://twitter.com/MySmoothieBowl" target="_blank"><i class="fa fa-twitter"></i></a></li>				
+						<li><a href="https://www.pinterest.com/coconutbowls/_shop/" target="_blank"><i class="fa fa-pinterest-p"></i></a></li>
+						<li><a href="https://thesmoothiebowl.tumblr.com" target="_blank"><i class="fa fa-tumblr"></i></a></li>
+						<li><a href="https://www.youtube.com/c/CoconutBowls/about" target="_blank"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+				</div>
+				<hr class='hr-bottom'></hr>
+			</div>
+
+			<div class="source">
+				Sources: <a href="https://www.freepik.com" target="_blank">Freepik</a>, <a href="https://unsplash.com" target="_blank">Unsplash</a> &amp; <a href="https://fonts.google.com" target="_blank">Google font</a>
+			</div>
+			<br></br>
+		</footer>
+	</body>
+</html>
+	

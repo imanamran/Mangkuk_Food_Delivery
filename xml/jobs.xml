@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<!-- Description: Mangkuk Jobs Page -->
+	<!-- Author: Amirul Iman bin Amran -->
+	<!-- Date: 02/03/2020 -->
+	<!-- Validated: 01/04/2021 -->
+
+<head>
+	<meta charset='utf-8'></meta>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'></meta>
+	<meta http-equiv='X-UA-compatible' content='ie=edge'></meta>
+	<meta name='description' content='Mangkuk'></meta>
+	<meta name='keywords' content='Mangkuk'></meta>
+	<meta name='author' content='Amirul Iman bin Amran'></meta>
+	<title>Mangkuk</title>
+	<link rel='stylesheet' href='style/style.css'></link>
+	<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;display=swap" rel="stylesheet"></link>
+	<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+	<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&amp;display=swap" rel="stylesheet"></link>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+	<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&amp;display=swap" rel="stylesheet"></link>
+</head>
+
+<body>
+	<nav>
+		<div class='wrapper'>
+			<div class='logo'>
+				<a href='index.html'><img alt="Logo" class="mangkuk" src="images/logo.png" width="50" height="50"></img></a>
+			</div>
+			<input type="radio" name="slide" id='menu-btn'></input>
+			<input type="radio" name="slide" id='cancel-btn'></input>
+			<ul class='nav-links'>
+				<li>
+					<label for='cancel-btn' class='btn cancel-btn'>
+						<img class="x" alt="X" src="images/x.png"></img>
+					</label>
+				</li>
+				<li><a href='index.html'>Home</a></li>
+				<li>
+					<a href='#' class='desktop-item'>Services</a>
+					<input type="checkbox" id='showMega'></input>
+					<label for='showMega' class="mobile-item">Services</label>
+					<div class='mega-box'>
+						<div class='content'>
+							<div class='row'>
+								<header><a href='food_delivery.html'>Food Delivery</a></header>
+								<ul class='mega-links'>
+									<li><a href='food_delivery.html#breakfast'>Breakfast</a></li>
+									<li><a href='food_delivery.html#lunch'>Lunch</a></li>
+									<li><a href='food_delivery.html#dinner'>Dinner</a></li>
+									<li><a href='food_delivery.html#special'>Special</a></li>
+								</ul>
+							</div>
+							
+							<div class='row'>
+								<header><a href='recipes.html'>Recipes</a></header>
+								<ul class='mega-links'>
+									<li><a href='recipes.html#ingridients'>Ingridients</a></li>
+									<li><a href='recipes.html#videos'>Videos</a></li>
+									<li><a href='recipes.html#tips&amp;tricks'>Tips &amp; Tricks</a></li>
+									<li><a href='recipes.html#didyouknow'>Did you know?</a></li>
+								</ul>
+							</div>
+							
+							<div class='row'>
+								<header><a href='booking.html'>Booking</a></header>
+								<ul class='mega-links'>
+									<li><a href='booking.html#whole-restaurant'>Whole restaurant</a></li>
+									<li><a href='booking.html#rooms'>Rooms</a></li>
+									<li><a href='booking.html#catering'>Catering</a></li>
+									<li><a href='booking.html#kitchen-app'>Kitchen appliances</a></li>
+								</ul>
+							</div>
+							
+							<div class='row'>
+								<header><a href='jobs.html'>Jobs</a></header>
+								<ul class='mega-links'>
+									<li><a href='jobs.html#manager'>Manager</a></li>
+									<li><a href='jobs.html#chef'>Chef</a></li>
+									<li><a href='jobs.html#cashier'>Cashier</a></li>
+									<li><a href='jobs.html#janitor'>Janitor</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href='#' class='desktop-item'>About us</a>
+					<input type="checkbox" id='showDrop'></input>
+					<label for='showDrop' class="mobile-item">About Us</label>
+						<ul class='drop-menu'>
+							<li><a href='aboutus.html'>Mangkuk</a></li>
+							<li><a href='aboutme.html'>Author</a></li>
+						</ul>
+				</li>
+				<li><a href='enquiry.html'>Enquiry</a></li>
+				<li><a href='enhancement.html'>Enhancement</a></li>
+				<li><a href='disclaimer.html'>Disclaimer</a></li>
+			</ul> 
+			<label for='menu-btn' class='btn menu-btn'>
+				<a> &#9776; </a>
+			</label>
+		</div>
+	</nav>
+
+	<header>
+		<div class='container'>
+			<img alt="background imag" class="background-image" src="images/jobs.jpg"></img>
+			<div class="welcome-wrapper">
+				<div class='service-topic'>Jobs</div>
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<div class='taste'>
+			<h2>Description</h2>
+			<p class="desc-pa">Our community ranges from all customers and employees that have contributed to us since the commencement. We are here to give back to the community by offering job opportunities, from chefs to janitors. All these roles are what make Mangkuk a great restaurant. Our purpose is to deliver outstanding and quality services to the community. There are 4 jobs that we offer which are manager, chef, cashier and janitor. A manager plays a vital role in Mangkuk as we are pursuing to be the best franchise in the world. Managers will be responsible for the management of their own restaurant. Inside the kitchen, chefs are responsible for creating smoothies. In the front row, the cashier will have to deal with customers. Janitors will need to ensure that everything in our restaurant is in a neat and clean environment. We prioritized cleanliness and qualities the best we could. Our employees are trained to be professional in a way that customers desire to be treated. On this page, registration forms are available for them to apply for these jobs. If opportunity does not knock, build a door, and here at Mangkuk, we have plenty of doors that we would like to share.  </p>
+		</div>
+	</section>
+
+	<section>
+		<h1 class="sub-delivery">Manager</h1>
+			<div id="manager" class="booking-shape-job">
+				<div class="clearfix">
+
+					<div class="box-img">
+						<img class="booking-pic" alt="background imag" src="images/manager.jpg"></img>
+					</div>
+
+					<div class="box">
+						<p>
+							Managers are the people in charge of employees and the facilities they work for. As a manager, your job is to plan and promote the daily schedule of employees and the business, interview, hire, and coordinate employees, create and maintain budgets, and coordinate with and report to senior management in the company. Leadership skills: You will have to keep your employees motivated, resolve conflicts and make hard decisions for your employees. A successful manager is a good leader. Time Management: You will be working with employees, customers and management. You might have to create schedules, order supplies and write reports. Time management is essential to make sure everything gets done.
+						</p>
+					</div>
+				
+					<div class="box-job">
+						<form id="detail1" action="mailto:imanamran@gmail.com" method="post" enctype="text/plain">
+							<div class="apply" style="overflow-x:auto;">
+								<table>
+									<tr>
+										<th id="register-title1" colspan="3">Registration form</th>
+									</tr>
+
+									<tr>
+										<td>Name:</td>
+										<td><input type="text" name="First" placeholder="First" size="20" required="required" id="name1" maxlength="25"></input></td>
+									<td><input type="text" name="Last" placeholder="Last" size="20" required="required" id="name2" maxlength="25"></input></td>
+									</tr>	
+
+									<tr>
+										<td>Birth date:</td>
+										<td colspan="2"><input type="date" name="date"></input></td>
+									</tr>
+
+									<tr>
+										<td>Phone number:</td>
+										<td colspan="2"><input type="tel" name="Phone number" placeholder="Phone number" size="40" required="required" id="name3" maxlength="10"></input></td>
+									</tr>
+
+									<tr>
+										<td>Start date:</td>
+										<td colspan="2"><input type="date" name="date"></input></td>
+									</tr>	
+
+									<tr>
+										<td>Resume:</td>
+										<td colspan="2" >
+											<label for="file-upload1" class="custom-file-upload">
+												
+												<input type="file" id="file-upload1" name="File" multiple="multiple">File</input>
+											</label>
+										</td>
+									</tr>
+									
+									<tr>
+										<td colspan="3"><input type="submit" value="Apply"></input></td>
+									</tr>		
+								</table>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<section>
+		<h1 class="sub-delivery">Chef</h1>
+		<div id="chef" class="booking-shape-job">
+			<div class="clearfix">
+				<div class="box-img">
+					<img class="booking-pic" alt="background imag" src="images/chef.jpg"></img>
+				</div>
+
+				<div class="box">
+					<p>
+						Oversees a restaurant's kitchen by managing other members of the food preparation team, deciding what dishes to serve and adjusting orders to meet guests' requests. Chooses ingredients and designs a menu based on the seasonal availability of food items. Creates unique dishes that inspire guests to come back again and again to see what is new in the restaurant. Cooks guests' orders according to their preferences. Employs food safety best practices and makes sure that all kitchen staff members do the same. Acts with appropriate caution in a dangerous environment where there are knives and high-temperature surfaces
+					</p>
+				</div>
+			
+				<div class="box-job">
+					<form id="detail2" action="mailto:imanamran@gmail.com" method="post" enctype="text/plain">
+						<div class="apply" style="overflow-x:auto;">
+							<table>
+								<tr>
+									<th id="register-title2" colspan="3">Registration form</th>
+								</tr>
+
+								<tr>
+									<td>Name:</td>
+									<td><input type="text" name="First" placeholder="First" size="20" required="required" id="name4" maxlength="25"></input></td>
+									<td><input type="text" name="Last" placeholder="Last" size="20" required="required" id="name5" maxlength="25"></input></td>
+								</tr>	
+
+								<tr>
+									<td>Birth date:</td>
+									<td colspan="2"><input type="date" name="date"></input></td>
+								</tr>
+
+								<tr>
+									<td>Phone number:</td>
+									<td colspan="2"><input type="tel" name="Phone number" placeholder="Phone number" size="40" required="required" id="name6" maxlength="10"></input></td>
+								</tr>
+
+								<tr>
+									<td>Start date:</td>
+									<td colspan="2"><input type="date" name="date"></input></td>
+								</tr>	
+
+								<tr>
+									<td>Resume:</td>
+									<td colspan="2" >
+										<label for="file-upload2" class="custom-file-upload">
+											
+										<input type="file" id="file-upload2" name="File" multiple="multiple">File</input>
+									</label>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3"><input type="submit" value="Apply"></input></td>
+								</tr>		
+							</table>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<h1 class="sub-delivery">Cashier</h1>
+		<div id="cashier" class="booking-shape-job">
+			<div class="clearfix">
+
+				<div class="box-img">
+					<img class="booking-pic" alt="background imag" src="images/cashier.jpg"></img>
+				</div>
+
+
+				<div class="box">
+					<p>
+						A Cashier's primary role is to assist customers in the in-store check-out process. Main duties include ringing up sales, bagging items, requesting price checks, honoring coupons, collecting payment and giving appropriate change. Responsible for counting the contents of cash register drawer at the end of each shift, maintaining receipts, records and withdrawals. May be responsible for checking materials and supplies and reporting when stock is low. May require a high school diploma or its equivalent and 0-2 years of experience in the field or in a related area. Has knowledge of commonly-used concepts, practices and procedures within a particular field.
+					</p>
+				</div>
+			
+				<div class="box-job">
+					<form id="detail3" action="mailto:imanamran@gmail.com" method="post" enctype="text/plain">
+						<div class="apply" style="overflow-x:auto;">
+							<table>
+								<tr>
+									<th id="register-title3" colspan="3">Registration form</th>
+								</tr>
+
+								<tr>
+									<td>Name:</td>
+									<td><input type="text" name="First" placeholder="First" size="20" required="required" id="name7" maxlength="25"></input></td>
+								<td><input type="text" name="Last" placeholder="Last" size="20" required="required" id="name8" maxlength="25"></input></td>
+								</tr>	
+
+								<tr>
+									<td>Birth date:</td>
+									<td colspan="2"><input type="date" name="date"></input></td>
+								</tr>
+
+								<tr>
+									<td>Phone number:</td>
+									<td colspan="2"><input type="tel" name="Phone number" placeholder="Phone number" size="40" required="required" id="name9" maxlength="10"></input></td>
+								</tr>
+
+								<tr>
+									<td>Start date:</td>
+									<td colspan="2"><input type="date" name="date"></input></td>
+								</tr>	
+
+								<tr>
+									<td>Resume:</td>
+									<td colspan="2" >
+										<label for="file-upload3" class="custom-file-upload">
+											
+										<input type="file" id="file-upload3" name="File" multiple="multiple">File</input>
+									</label>
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="3"><input type="submit" value="Apply"></input></td>
+								</tr>		
+							</table>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<h1 class="sub-delivery">Janitor</h1>
+		<div id="janitor" class="booking-shape-job">
+			<div class="clearfix">
+
+				<div class="box-img">
+					<img class="booking-pic" alt="background imag" src="images/janitor.jpg"></img>
+				</div>
+
+				<div class="box">
+					<p>
+						General cleaning of the building and keeping it maintained and in good condition. Vacuum, sweep, and mop floors. Cleaning and stock restrooms. Ensure doors are locked after hours. Clean up spills with appropriate equipment. Perform minor repairs. Notify supervisors or managers of major repairs. Collect and dispose of trash. Complete tasks in a timely manner with minimal supervision. Keep cleaning supplies in stock. Work with a contract cleaning service when necessary.
+					</p>
+				</div>
+			
+				<div class="box-job">
+					<form id="detail4" action="mailto:imanamran@gmail.com" method="post" enctype="text/plain">
+						<div class="apply" style="overflow-x:auto;">
+							<table>
+								<tr>
+									<th id="register-title4" colspan="3">Registration form</th>
+								</tr>
+
+								<tr>
+									<td>Name:</td>
+									<td><input type="text" name="First" placeholder="First" size="20" required="required" id="name10" maxlength="25"></input></td>
+								<td><input type="text" name="Last" placeholder="Last" size="20" required="required" id="name11" maxlength="25"></input></td>
+								</tr>	
+
+								<tr>
+									<td>Birth date:</td>
+									<td colspan="2"><input type="date" name="date"></input></td>
+								</tr>
+
+								<tr>
+									<td>Phone number:</td>
+									<td colspan="2"><input type="tel" name="Phone number" placeholder="Phone number" size="40" required="required" id="name12" maxlength="10"></input></td>
+								</tr>
+
+								<tr>
+									<td>Start date:</td>
+									<td colspan="2"><input type="date" name="date"></input></td>
+								</tr>	
+
+								<tr>
+									<td>Resume:</td>
+									<td colspan="2" >
+										<label for="file-upload4" class="custom-file-upload">
+											
+										<input type="file" id="file-upload4" name="File" multiple="multiple">File</input>
+									</label>
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="3"><input type="submit" value="Apply"></input></td>
+								</tr>		
+							</table>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class='footer-wrapper'>
+			<div class="grey"></div>
+			<hr class='hr-top'></hr>
+			<div class='footer-media'>
+				<ul>
+					<li><a href="https://www.instagram.com/smoothiebowls/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://www.facebook.com/coconutbowls" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+					<li><a href="https://twitter.com/MySmoothieBowl" target="_blank"><i class="fa fa-twitter"></i></a></li>				
+					<li><a href="https://www.pinterest.com/coconutbowls/_shop/" target="_blank"><i class="fa fa-pinterest-p"></i></a></li>
+					<li><a href="https://thesmoothiebowl.tumblr.com" target="_blank"><i class="fa fa-tumblr"></i></a></li>
+					<li><a href="https://www.youtube.com/c/CoconutBowls/about" target="_blank"><i class="fa fa-youtube"></i></a></li>
+				</ul>
+			</div>
+			<hr class='hr-bottom'></hr>
+		</div>
+
+		<div class="source">
+			Sources: <a href="https://www.freepik.com" target="_blank">Freepik</a>, <a href="https://unsplash.com" target="_blank">Unsplash</a>, <a href="https://fonts.google.com" target="_blank">Google font</a>, <a href="https://m.snagajob.com/job-descriptions/manager/#:~:text=Managers%20are%20the%20people%20in,senior%20management%20in%20the%20company." target="_blank">Snagajob</a>, <a href="https://www.monster.co.uk/advertise-a-job/hr-resources/hr-strategies/job-descriptions/chef-job-description/#:~:text=Chef%20Job%20Purpose%3A,orders%20to%20meet%20guests%27%20requests." target="_blank">Monster</a>, <a href="https://www.topresume.com/career-advice/cashier-job-description" target="_blank">Top Resume</a> &amp; <a href="https://www.betterteam.com/janitor-job-description#:~:text=Janitor%20Responsibilities%3A,Cleaning%20and%20stock%20restrooms.&amp;text=Clean%20up%20spills%20with%20appropriate%20equipment." target="_blank">Better Team</a>
+		</div>
+		<br></br>
+	</footer>
+</body>
+
+</html>
+	
